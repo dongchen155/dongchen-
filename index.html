@@ -140,7 +140,7 @@
 
 <div id="main" class="wall">
     <div class="result-btn">
-       <a href="./result.html" target="_blank" style="color:coral;">幸运员工</a>
+       <a href="./result.html"  style="color:coral;" >幸运员工</a>
     </div>
 </div>
 
@@ -187,7 +187,7 @@
             member.forEach(function(item, index){
                 item.index = index;
                 var key = getKey(item);
-                var color = choosed[key] ? '#FFFC9C' : '#2059A6';
+                var color = choosed[key] ? '#FFFC9C' : '#00FFFF';
                 html.push('<li><a href="#" style="color: ' + color + ';">' + item.name + '</a></li>');
             });
             html.push('</ul>');
